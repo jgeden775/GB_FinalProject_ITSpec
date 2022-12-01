@@ -1,9 +1,8 @@
-using static System.Console;
 namespace FuncLib;
 
 public class Func
 {
-    public string[] GetStrArr(string input)
+    public static string[] GetStrArr(string input)
     {
         string[] array = input.Split(" ", StringSplitOptions.RemoveEmptyEntries);
         string[] result = new string[array.Length];
@@ -15,7 +14,7 @@ public class Func
         return result;
     }
 
-    public string[] CutStrArr(string[] array, int length)
+    public static string[] CutStrArr(string[] array, int length)
     {
         string[] result = new string[length];
 
