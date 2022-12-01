@@ -1,4 +1,11 @@
 ﻿using static System.Console;
+using FuncLib;
 
-Clear();
+public class Program
+{
+    public void Main()
+    {
+        Clear();
 
+    }
+}
